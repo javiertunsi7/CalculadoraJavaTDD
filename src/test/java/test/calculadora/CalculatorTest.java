@@ -1,6 +1,6 @@
-package test;
+package test.calculadora;
 
-
+import calculadora.com.Calculator;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
