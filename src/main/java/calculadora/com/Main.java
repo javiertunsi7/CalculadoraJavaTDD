@@ -16,18 +16,18 @@ public class Main {
 
 
         System.out.print("Introduce el primer número:  ");
-        double a = scanner.nextDouble();
+        double opertation1 = scanner.nextDouble();
 
         System.out.print("Introduce el segundo número: ");
-        double b = scanner.nextDouble();
+        double operation2 = scanner.nextDouble();
 
         System.out.println("\n──── Resultados ────");
-        System.out.printf("%-15s %.2f + %.2f = %.2f%n", "Suma:",        a, b, calculator.add(a, b));
-        System.out.printf("%-15s %.2f - %.2f = %.2f%n", "Resta:",       a, b, calculator.subtract(a, b));
-        System.out.printf("%-15s %.2f * %.2f = %.2f%n", "Multiplicar:", a, b, calculator.multiply(a, b));
+        System.out.printf("%-15s %.2f + %.2f = %.2f%n", "Suma:",        opertation1, operation2, calculator.add(opertation1,operation2));
+        System.out.printf("%-15s %.2f - %.2f = %.2f%n", "Resta:",       opertation1, operation2, calculator.subtract(opertation1, operation2));
+        System.out.printf("%-15s %.2f * %.2f = %.2f%n", "Multiplicar:", opertation1, operation2, calculator.multiply(opertation1, operation2));
 
-        if (b != 0) {
-            System.out.printf("%-15s %.2f / %.2f = %.2f%n", "Dividir:", a, b, calculator.divide(a, b));
+        if (operation2 != 0) {
+            System.out.printf("%-15s %.2f / %.2f = %.2f%n", "Dividir:", opertation1, operation2, calculator.divide(opertation1, operation2));
         } else {
             System.out.println("Dividir:        No se puede dividir entre cero.");
         }
