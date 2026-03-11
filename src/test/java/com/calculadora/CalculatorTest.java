@@ -1,5 +1,6 @@
 package com.calculadora;
 
+import calculadora.com.Calculator;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
@@ -15,7 +16,7 @@ import static org.junit.jupiter.api.Assertions.*;
 @DisplayName("Calculator Tests")
 class CalculatorTest {
 
-    private ICalculator calculator;
+    private Calculator calculator;
 
     @BeforeEach
     void setUp() {
