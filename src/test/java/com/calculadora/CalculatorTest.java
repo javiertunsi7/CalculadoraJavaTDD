@@ -8,11 +8,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-/**
- * TDD test suite for Calculator class.
- * Tests are written against ICalculator interface (DIP).
- * Grouped by operation using @Nested for readability.
- */
+
 @DisplayName("Calculator Tests")
 class CalculatorTest {
 
@@ -23,9 +19,7 @@ class CalculatorTest {
         calculator = new Calculator();
     }
 
-    // ─────────────────────────────────────────
-    // ADD
-    // ─────────────────────────────────────────
+
     @Nested
     @DisplayName("add()")
     class AddTests {
@@ -59,9 +53,7 @@ class CalculatorTest {
         }
     }
 
-    // ─────────────────────────────────────────
-    // SUBTRACT
-    // ─────────────────────────────────────────
+
     @Nested
     @DisplayName("subtract()")
     class SubtractTests {
@@ -95,9 +87,7 @@ class CalculatorTest {
         }
     }
 
-    // ─────────────────────────────────────────
-    // MULTIPLY
-    // ─────────────────────────────────────────
+
     @Nested
     @DisplayName("multiply()")
     class MultiplyTests {
@@ -131,9 +121,7 @@ class CalculatorTest {
         }
     }
 
-    // ─────────────────────────────────────────
-    // DIVIDE
-    // ─────────────────────────────────────────
+
     @Nested
     @DisplayName("divide()")
     class DivideTests {
